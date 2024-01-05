@@ -3,15 +3,15 @@ requires = ["setuptools>=40.8.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "psychopy-whisper"
-version = "0.0.3"
-description = "Extension for transcription using OpenAI Whisper."
+name = "psychopy-kimstestplugin"
+version = "0.0.1"
+description = "Plugin to check Kim knows how to make a plugin."
 readme = "README.md"
 requires-python = ">= 3.7"
 license = {text = "GNU General Public License v3 (GPLv3)"}
 authors = [
-  { name = "Jon Peirce", email = "jon@opensceincetools.org" },
-  { name = "Matthew Cutone", email = "mcutone@opensceincetools.org" },
+  { name = "Kim Dundas", email = "kim@opensceincetools.org" },
+  { name = "Inca Dundas", email = "inca_wants_treats@gmail.com" },
 ]
 classifiers = [
   "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
@@ -24,10 +24,8 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: Implementation :: CPython",
 ]
-urls.homepage = "https://github.com/psychopy/psychopy-whisper"
-urls.changelog = "https://github.com/psychopy/psychopy-whisper/blob/main/CHANGELOG.txt"
-urls.documentation = "https://pages.github.com/psychopy/psychopy-whisper"
-urls.repository = "https://github.com/psychopy/psychopy-whisper"
+urls.homepage = "https://github.com/kimDundas/psychopy-kimstestplugin"
+
 dependencies = [
   "faster-whisper",
   "librosa",
